@@ -26,22 +26,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             display: flex;
             flex-direction: column;
-            align-items: flex-start; 
+            align-items:center; 
             justify-content: center;
             height: 100vh;
             margin: 0;
-            background-color: #F4DFC8;
+            background-color: lightblue;
             padding-left: 20px; 
         }
 
         .form {
-            display: flex;
+            display:grid;
             flex-direction: column;
             align-items: flex-start; 
-            margin-bottom: 465px;
+            margin-bottom: 200px;
         }
 
         .form label {
@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         .form input[type="submit"] {
             padding: 10px;
-            background-color: #4CAF50;
+            background-color: #556B2F;
             color: white;
             border: none;
             cursor: pointer;
@@ -70,9 +70,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         .tombol-kembali {
-            display: inline-block;
+            display: contents;
             padding: 10px;
-            background-color: #FF0000; 
+            background-color:#556B2F; 
             color: white;
             text-decoration: none;
             position: fixed;
